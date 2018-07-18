@@ -1,0 +1,111 @@
+/* Required for full background image */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  header,
+  .view {
+    height: 650px;
+  }
+}
+
+/* .rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+} */
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+/* #main-bg{
+    background-image: url('http://mdbootstrap.com/img/Photos/Others/images/91.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    backgroundPosition: center center;
+    height: 100vh 
+} */
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height:100%;
+    height:100vh;
+}
+
+.primary-color{
+    background-color: rgb(20, 29, 36) !important;
+    opacity: 0.8;
+}
+
+#navbar{
+    width:100%;
+    position:fixed !important;
+    z-index: 1000;
+}
+.App-logo{
+    width:6rem;
+    height:100%;
+}
+
+#dropdown-items{
+    color:white;
+    display:show;
+}
+.dropdown-item{
+    color:rgb(222, 228, 223) !important;
+    font-size: 0.85rem;
+}
+
+.md-form label{
+    color:black;
+}
+
+.card{
+    background: rgba(182, 172, 185, 0.7) !important;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.follow-us{
+    font-family: 'Song Myung', serif;
+}
+
+.md-form{
+    text-align: left;
+}
+
+.md-form .prefix.active{
+    color:#835f2ae6;
+}
+
+.videoslide{
+    min-width: 100%;
+    height:auto;
+}
